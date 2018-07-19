@@ -21,3 +21,5 @@ while True:
 
     except EOFError:
         break
+
+# %-formatting #
