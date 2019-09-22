@@ -13,7 +13,6 @@ def cmp(a, b):
 while True:
     n = input()
     if n is not '0':
-        A = []
         A = input().split()
 
         A.sort(key=cmp_to_key(cmp))
